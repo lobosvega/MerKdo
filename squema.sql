@@ -15,35 +15,34 @@ CREATE TABLE products(
 SELECT * FROM products
 
 -- Insert rows into table  products'
+
 INSERT INTO products
-( -- columns to insert data into
- product_name, department_name, price, stock_quantity
-)
+(product_name, department_name, price, stock_quantity)
 VALUES
 ( -- first row: values for the columns in the list above
- DANSE MACABRE, BOOK, 10.00, 9
+ "DANSE MACABRE", "BOOK", 10.00, 9
 ),
 ( -- second row: values for the columns in the list above
- KEITH RICHARDS LIFE, BOOK, 35.00, 5
+ "KEITH RICHARDS LIFE", "BOOK", 35.00, 5
 ),
 ( -- second row: values for the columns in the list above
- DALI, BOOK, 150.00, 2
+ "DALI", "BOOK", 150.00, 2
 ),
 ( -- second row: values for the columns in the list above
- JAPAN A HISTORY IN ART, BOOK, 80.00, 1
+ "JAPAN A HISTORY IN ART", "BOOK", 80.00, 1
 ),
 ( -- second row: values for the columns in the list above
- SPIRITUAL HERITAGE OF INDIA, BOOK, 15.00, 1
+ "SPIRITUAL HERITAGE OF INDIA", "BOOK", 15.00, 1
 ),
 ( -- second row: values for the columns in the list above
- INDOCHINE, BOOK, 45, 10
+ "INDOCHINE", "BOOK", 45, 10
 ),
 ( -- second row: values for the columns in the list above
- BERGDORF GOODMAN, MAGAZINE, 25.00, 20
+ "BERGDORF GOODMAN", "MAGAZINE", 25.00, 20
 ),
 ( -- second row: values for the columns in the list above
- VOGUE, MAGAZINE, 10.00, 150
+ "VOGUE", "MAGAZINE", 10.00, 150
 ),
 ( -- second row: values for the columns in the list above
- FLAUNT, MAGAZINE, 35.00, 19
+ "FLAUNT", "MAGAZINE", 35.00, 19
 ),
